@@ -1,4 +1,4 @@
-**Speedtest.net Collector For InfluxDB and Grafana**
+**Speedtest.net Collector For InfluxDB and Grafana!**
 ------------------------------
 
 ![Screenshot](https://puu.sh/tmfOA/b5576e88de.png)
