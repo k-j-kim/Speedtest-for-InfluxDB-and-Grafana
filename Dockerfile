@@ -1,5 +1,4 @@
 FROM python:alpine
-MAINTAINER Allan Tribe <atribe13@gmail.com>
 
 VOLUME /src/
 COPY influxspeedtest.py requirements.txt config.ini /src/
