@@ -2,7 +2,7 @@
 
 ![Screenshot](https://puu.sh/tmfOA/b5576e88de.png)
 
-This tool is a wrapper for speedtest-cli which allows you to run periodic speedtests and save the results to Influxdb
+This tool is a wrapper for [speedtest-cli](https://github.com/sivel/speedtest-cli) which allows you to run periodic speedtests and save the results to Influxdb
 
 ## Configuration within config.ini
 
@@ -61,7 +61,7 @@ You will need the speedtest-cli library installed to use this - [Found Here](htt
 
 ```bash
 mkdir speedtest
-curl -O https://raw.githubusercontent.com/barrycarey/Speedtest-for-InfluxDB-and-Grafana/master/config.ini speedtest/config.ini
+curl -O https://raw.githubusercontent.com/k-j-kim/Speedtest-for-InfluxDB-and-Grafana/master/config.ini speedtest/config.ini
 cd speedtest
 ```
 
@@ -92,6 +92,6 @@ atribe/speedtest-for-influxdb-and-grafana
 2.  The docker-compose option
 
 ```bash
-curl -O https://raw.githubusercontent.com/barrycarey/Speedtest-for-InfluxDB-and-Grafana/master/docker-compose.yml docker-compose.yml
+curl -O https://raw.githubusercontent.com/k-j-kim/Speedtest-for-InfluxDB-and-Grafana/master/docker-compose.yml docker-compose.yml
 docker-compose up -d
 ```
