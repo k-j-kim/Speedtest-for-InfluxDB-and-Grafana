@@ -1,5 +1,7 @@
 ## **Speedtest.net Collector For InfluxDB and Grafana!**
 
+[![ci](https://github.com/k-j-kim/Speedtest-for-InfluxDB-and-Grafana/actions/workflows/docker-deploy.yml/badge.svg)](https://github.com/k-j-kim/Speedtest-for-InfluxDB-and-Grafana/actions/workflows/docker-deploy.yml)
+
 ![Screenshot](https://puu.sh/tmfOA/b5576e88de.png)
 
 This tool is a wrapper for [speedtest-cli](https://github.com/sivel/speedtest-cli) which allows you to run periodic speedtests and save the results to Influxdb
